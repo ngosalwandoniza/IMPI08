@@ -1,50 +1,42 @@
-# Welcome to your Expo app 👋
+# Impiy Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Impiy** is a mobile application that allows users to:
+- Make payments via **QR code**
+- Transfer **decentralized money** using Darw
+- Use an **escrow system** to prevent scams
+- Pay **bills directly** from the app
 
-## Get started
+The app is built using **React Native** for the mobile frontend and **Django** for the backend.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Features
+- QR code scanning for instant payments
+- Decentralized money transfer system
+- Escrow payment system to ensure secure transactions
+- Bill payment integration (utilities, internet, etc.)
+- Transaction history and profile management
+- Secure login and user authentication
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## Tech Stack
+- **Frontend:** React Native
+- **Backend:** Django
+- **Database:** (Your DB, e.g., PostgreSQL or SQLite)
+- **Authentication:** JWT or Django Auth
+- **Other:** (Optional: Expo, Redux, etc.)
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Demo Video
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+You can showcase the app using a video. You have two options:
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Option 1: Small video in repo (<50 MB)
+Place the video in the repo folder as `demo.mp4` and embed it:
+```html
+<video width="400" controls>
+  <source src="demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
