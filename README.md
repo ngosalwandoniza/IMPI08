@@ -27,16 +27,10 @@ The app is built using **React Native** for the mobile frontend and **Django** f
 - **Authentication:** JWT or Django Auth
 - **Other:** (Optional: Expo, Redux, etc.)
 
----
+## Demo Video
+
+[![Watch the Impiy App Demo](https://img.youtube.com/vi/idM8QsxDZqw/0.jpg)](https://youtube.com/shorts/idM8QsxDZqw?feature=share)
+
 
 ## Demo Video
 
-You can showcase the app using a video. You have two options:
-
-### Option 1: Small video in repo (<50 MB)
-Place the video in the repo folder as `demo.mp4` and embed it:
-```html
-<video width="400" controls>
-  <source src="demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
